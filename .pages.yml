@@ -38,6 +38,19 @@ content:
             type: string
           - name: answer
             type: rich-text
+
+      - name: categories
+        type: select
+        options:
+          values:
+            - name: art
+              label: Art
+            - name: fashion
+              label: Fashion
+            - name: movies
+              label: Movies
+            - name: music
+              label: Music
           
   - name: site
     label: Site settings
