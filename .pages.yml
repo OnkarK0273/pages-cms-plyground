@@ -25,18 +25,18 @@ content:
                     type: string
                   - name: url
                     type: string
-      - name: sections
+      - name: faq
         type: object
         list:
           min: 1
           max: 6
           collapsible:
             collapsed: true
-            summary: "{title} ({index})"
+            summary: "{quetion} ({index})"
         fields:
-          - name: title
+          - name: quetion
             type: string
-          - name: body
+          - name: answer
             type: rich-text
           
   - name: site
