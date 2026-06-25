@@ -18,7 +18,9 @@ content:
         blockKey: type
         blocks:
           - name: hero
-            component: hero
+            fields:
+              - name: title
+                type: string
           - name: text
             fields:
               - name: body
