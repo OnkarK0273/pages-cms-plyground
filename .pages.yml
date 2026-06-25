@@ -51,6 +51,14 @@ content:
               label: Movies
             - name: music
               label: Music
+
+      - name: contact
+        type: object
+        fields:
+          - name: name
+            type: string
+          - name: email
+            type: string
           
   - name: site
     label: Site settings
