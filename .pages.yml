@@ -12,19 +12,19 @@ content:
       - name: body
         type: rich-text
       - name: sections
-        label: Sections
         type: block
         list: true
         blockKey: type
         blocks:
-          - name: hero
+          - name: cta
             fields:
-              - name: title
-                type: string
-          - name: text
-            fields:
-              - name: body
-                type: rich-text
+              - name: button
+                type: object
+                fields:
+                  - name: label
+                    type: string
+                  - name: url
+                    type: string
           
   - name: site
     label: Site settings
