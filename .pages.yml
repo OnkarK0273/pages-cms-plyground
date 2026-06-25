@@ -25,6 +25,19 @@ content:
                     type: string
                   - name: url
                     type: string
+      - name: sections
+        type: object
+        list:
+          min: 1
+          max: 6
+          collapsible:
+            collapsed: true
+            summary: "{title} ({index})"
+        fields:
+          - name: title
+            type: string
+          - name: body
+            type: rich-text
           
   - name: site
     label: Site settings
